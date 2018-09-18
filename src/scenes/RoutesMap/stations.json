@@ -1,0 +1,25 @@
+[
+  {
+    "type": "major",
+    "name": "Dresden",
+    "abbrev": "DRS",
+    "coordinates": [13.764967144004657, 51.1250912428871]
+  },
+  {
+    "type": "major",
+    "name": "Frankfurt Int'l",
+    "abbrev": "FRA",
+    "coordinates": [8.571822869076074, 50.050677089520725]
+  },
+  {
+    "type": "major",
+    "name": "Václav Havel Hyperloop Prague",
+    "abbrev": "PRG",
+    "coordinates": [14.2632, 50.1018]
+  },
+  { "type": "mid", "name": "Čapí Hnízdo", "abbrev": "CAH", "coordinates": [14.6512, 49.6857] },
+  { "type": "mid", "name": "Brno", "abbrev": "BRN", "coordinates": [16.6126, 49.1908] },
+  { "type": "major", "name": "Warsaw", "abbrev": "WAW", "coordinates": [20.967222, 52.165833] },
+  { "type": "major", "name": "Vienna", "abbrev": "VIE", "coordinates": [16.570833, 48.110833] },
+  { "type": "major", "name": "Munich", "abbrev": "MUC", "coordinates": [11.786111, 48.353889] }
+]

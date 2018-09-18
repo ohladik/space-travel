@@ -1,0 +1,37 @@
+[
+  {
+    "start": [14.6512, 49.6857, 175.26],
+    "end": [14.2632, 50.1018, 327.66],
+    "name": "Čapí Hnízdo - Prague Hyperloop"
+  },
+  {
+    "start": [16.6126, 49.1908, 10],
+    "end": [14.2632, 50.1018, 20],
+    "name": "Brno - Prague Hyperloop"
+  },
+  {
+    "start": [20.967222, 52.165833, 10],
+    "end": [14.2632, 50.1018, 20],
+    "name": "Warsaw - Prague Hyperloop"
+  },
+  {
+    "start": [16.570833, 48.110833, 10],
+    "end": [14.2632, 50.1018, 20],
+    "name": "Vienna - Prague Hyperloop"
+  },
+  {
+    "start": [8.571822869076074, 50.050677089520725, 10],
+    "end": [14.2632, 50.1018, 20],
+    "name": "Frankfurt - Prague Hyperloop"
+  },
+  {
+    "start": [13.764967144004657, 51.1250912428871, 10],
+    "end": [14.2632, 50.1018, 20],
+    "name": "Dresden - Prague Hyperloop"
+  },
+  {
+    "start": [11.786111, 48.353889, 10],
+    "end": [14.2632, 50.1018, 20],
+    "name": "Munich - Prague Hyperloop"
+  }
+]

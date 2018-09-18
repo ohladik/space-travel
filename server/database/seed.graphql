@@ -1,0 +1,121 @@
+mutation {
+  first: createDestination(
+    data: {
+      name: "mercury"
+      descriptionShort: "The smallest planet"
+      descriptionLong: "Mercury appears to have a solid silicate crust and mantle overlying a solid, iron sulfide outer core layer, a deeper liquid core layer, and possibly a solid inner core."
+      ticketPrice: 499
+      tripDuration: 20
+      temperature: -60
+      wifiAvailable: true
+      kidsFriendly: true
+    }
+  ) {
+    id
+  }
+
+  second: createDestination(
+    data: {
+      name: "venus"
+      descriptionShort: "The hottest planet"
+      descriptionLong: "Venus is a terrestrial planet and is sometimes called Earth's \"sister planet\" because of their similar size, mass, proximity to the Sun, and bulk composition."
+      ticketPrice: 349
+      tripDuration: 16
+      temperature: 462
+      wifiAvailable: true
+      kidsFriendly: true
+    }
+  ) {
+    id
+  }
+
+  third: createDestination(
+    data: {
+      name: "mars"
+      descriptionShort: "The red planet"
+      descriptionLong: "Float across the iconic red surface of Mars and marvel at the canyons, volcanoes and the famous Olympus Mons shield mountain on this magical planet."
+      ticketPrice: 599
+      tripDuration: 22
+      temperature: -60
+      wifiAvailable: true
+      kidsFriendly: true
+    }
+  ) {
+    id
+  }
+
+  fourth: createDestination(
+    data: {
+      name: "jupiter"
+      descriptionShort: "The largest planet"
+      descriptionLong: "Jupiter is primarily composed of hydrogen with a quarter of its mass being helium, though helium comprises only about a tenth of the number of molecules."
+      ticketPrice: 749
+      tripDuration: 26
+      temperature: -109
+      wifiAvailable: true
+      kidsFriendly: true
+    }
+  ) {
+    id
+  }
+
+  fifth: createDestination(
+    data: {
+      name: "saturn"
+      descriptionShort: "The one with the ring"
+      descriptionLong: "One ring to rule them all, one ring to find them, One ring to bring them all and in the darkness bind them."
+      ticketPrice: 899
+      tripDuration: 32
+      temperature: -185
+      wifiAvailable: true
+      kidsFriendly: true
+    }
+  ) {
+    id
+  }
+
+  sixth: createDestination(
+    data: {
+      name: "uranus"
+      descriptionShort: "The ice giant"
+      descriptionLong: "The extreme pressure and temperature deep within Uranus may break up the methane molecules, with the carbon atoms condensing into crystals of diamond that rain down through the mantle like hailstones."
+      ticketPrice: 969
+      tripDuration: 36
+      temperature: -224
+      wifiAvailable: true
+      kidsFriendly: true
+    }
+  ) {
+    id
+  }
+
+  seventh: createDestination(
+    data: {
+      name: "neptune"
+      descriptionShort: "The densest planet"
+      descriptionLong: "Neptune's weather is characterised by extremely dynamic storm systems, with winds reaching speeds of almost 600 m/s (2,200 km/h; 1,300 mph)—nearly reaching supersonic flow."
+      ticketPrice: 1099
+      tripDuration: 38
+      temperature: -218
+      wifiAvailable: true
+      kidsFriendly: true
+    }
+  ) {
+    id
+  }
+
+  eighth: createDestination(
+    data: {
+      name: "pluto"
+      descriptionShort: "The dwarf planet"
+      descriptionLong: "Pluto is the largest and second-most-massive known dwarf planet in the Solar System, and the ninth-largest and tenth-most-massive known object directly orbiting the Sun."
+      ticketPrice: 1149
+      tripDuration: 42
+      temperature: -240
+      wifiAvailable: true
+      kidsFriendly: true
+    }
+  ) {
+    id
+  }
+}

@@ -1,0 +1,56 @@
+# import User, Destination, Ticket, Json, TicketSubscriptionPayload, BatchPayload from "./generated/prisma.graphql"
+
+scalar Json
+
+type Query {
+  destinations(id: ID, skip: Int, first: Int): [Destination!]!
+  tickets(
+    destinationId: String
+    date: String
+    time: String
+    skip: Int
+    first: Int
+  ): [Ticket!]!
+  usersTickets: [Ticket!]!
+  ticketsNotAvailable(
+    destinationId: String
+    date: String
+    time: String
+    skip: Int
+    first: Int
+  ): [Ticket!]!
+  ticketsSelected(
+    destinationId: String
+    date: String
+    time: String
+    skip: Int
+    first: Int
+  ): [Ticket!]!
+}
+
+type Mutation {
+  signup(email: String!, password: String!): AuthPayload
+  login(email: String!, password: String!): AuthPayload
+  createTicket(
+    destinationId: String!
+    date: String!
+    time: String!
+    seatId: String!
+    paid: Boolean
+  ): Ticket!
+  deleteTicket(id: String!): Ticket!
+  ticketsPaid(tickets: Json!): BatchPayload
+}
+
+type Subscription {
+  tickets(
+    destinationId: String!
+    date: String!
+    time: String!
+  ): TicketSubscriptionPayload
+}
+
+type AuthPayload {
+  token: String!
+  user: User!
+}

@@ -1,0 +1,76 @@
+/* input field */
+
+/* hide the arrow */
+.DateInput_fang {
+  display: none;
+}
+
+/* hide the input field */
+.SingleDatePickerInput {
+  display: none;
+}
+
+/* hide the calendar help button */
+.DayPickerKeyboardShortcuts_buttonReset {
+  display: none;
+}
+
+/* calendar */
+table,
+td {
+  border: none !important;
+}
+
+.DayPicker__withBorder {
+  box-shadow: none;
+}
+
+.DayPicker_weekHeader {
+  color: #fff;
+}
+
+.SingleDatePicker_picker,
+.DayPicker,
+.DayPicker__horizontal,
+.CalendarMonth,
+.CalendarMonthGrid,
+.CalendarMonth_caption {
+  background: transparent;
+  color: #fff;
+}
+
+.SingleDatePicker_picker {
+  position: relative;
+  top: 0 !important;
+}
+
+.CalendarDay__blocked_out_of_range {
+  background: transparent !important;
+  color: grey !important;
+}
+
+.CalendarDay__default {
+  background: transparent;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.CalendarDay__default:hover {
+  color: #000;
+}
+
+.CalendarDay__selected {
+  background: #fff;
+  color: #000;
+  border-radius: 30px;
+}
+
+.CalendarDay__selected:active {
+  background: #fff;
+  color: #000;
+}
+
+.CalendarDay__selected:hover {
+  background: #fff;
+  color: #000;
+}

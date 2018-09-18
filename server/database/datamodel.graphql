@@ -1,0 +1,27 @@
+type User {
+  id: ID! @unique
+  email: String! @unique
+  password: String!
+}
+
+type Destination {
+  id: ID! @unique
+  name: String! @unique
+  descriptionShort: String!
+  descriptionLong: String!
+  ticketPrice: Int!
+  tripDuration: Int!
+  temperature: Int!
+  wifiAvailable: Boolean!
+  kidsFriendly: Boolean!
+}
+
+type Ticket {
+  id: ID! @unique
+  owner: User!
+  destination: Destination!
+  date: String!
+  time: String!
+  seatId: String!
+  paid: Boolean!
+}

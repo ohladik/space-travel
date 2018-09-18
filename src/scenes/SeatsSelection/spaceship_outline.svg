@@ -1,0 +1,18 @@
+<svg width="715" height="1026" viewBox="0 0 715 1026" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>spaceship_outline</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(844 -1498)">
+<g id="spaceship_outline">
+<g id="Ellipse 2">
+<use xlink:href="#path0_fill" transform="translate(-907 1989)" fill="#FFFFFF" fill-opacity="0.05"/>
+</g>
+<g id="Ellipse 3">
+<use xlink:href="#path1_fill" transform="translate(-739.018 1498)" fill="#FFFFFF" fill-opacity="0.05"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 840 703.5C 840 1092.03 651.96 1407 420 1407C 188.04 1407 0 1092.03 0 703.5C 0 314.968 188.04 0 420 0C 651.96 0 840 314.968 840 703.5Z"/>
+<path id="path1_fill" d="M 502.018 831C 502.018 1245.21 390.089 1481 252.018 1481C 113.947 1481 2.01828 1219 2.01828 831C -17.9817 443 113.947 0 252.018 0C 390.089 0 522.018 416.786 502.018 831Z"/>
+</defs>
+</svg>

@@ -1,0 +1,18 @@
+endpoint: http://localhost:4466/server/dev
+
+# to disable authentication:
+# disableAuth: true
+secret: ${env:PRISMA_SECRET}
+
+# the file path pointing to your data model
+datamodel: datamodel.graphql
+
+# seed your service with initial data based on seed.graphql
+seed:
+  import: seed.graphql
+
+# generate scheme in src/generated/prisma.graphql
+hooks:
+  post-deploy:
+    - graphql get-schema --project database
+    - graphql prepare
