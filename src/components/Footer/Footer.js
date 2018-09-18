@@ -71,7 +71,7 @@ const Footer = () => (
           <LabelContainer>Font Awesome icons</LabelContainer>
         </FooterItem>
       </FooterLink>
-      <FooterLink href="https://github.com/" target="_blank" rel="noopener noreferrer">
+      <FooterLink href="https://github.com/ohladik/space-travel" target="_blank" rel="noopener noreferrer">
         <FooterItem>
           <IconContainer>
             <FontAwesomeIcon icon={githubIcon} />
