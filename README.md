@@ -4,6 +4,12 @@
 
 The app allows users to buy a one-way ticket to a Planet in the Solar System in a situation when the environment on Earth is not livable anymore (the tickets can’t be used, yet). Customers can check the air quality in their location to make an informed decision about this important matter.
 
+[Live demo](https://space.ohladik.com)
+
+![](demo1.gif)
+![](demo2.gif)
+![](demo3.gif)
+
 ## Prerequisites
 
 Docker, docker-compose, node, yarn.
